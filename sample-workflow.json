@@ -8,7 +8,7 @@
       "type": "CheckpointLoaderSimple",
       "pos": [
         10,
-        440
+        400
       ],
       "size": [
         320,
@@ -73,7 +73,7 @@
       "type": "LoraLoader",
       "pos": [
         410,
-        440
+        400
       ],
       "size": [
         300,
@@ -160,7 +160,7 @@
       "type": "CLIPSetLastLayer",
       "pos": [
         790,
-        510
+        470
       ],
       "size": [
         280,
@@ -210,7 +210,7 @@
       "type": "CLIPTextEncode",
       "pos": [
         1230,
-        440
+        400
       ],
       "size": [
         420,
@@ -262,7 +262,7 @@
       "type": "CLIPTextEncode",
       "pos": [
         1230,
-        710
+        670
       ],
       "size": [
         420,
@@ -314,7 +314,7 @@
       "type": "LoadImage",
       "pos": [
         10,
-        690
+        650
       ],
       "size": [
         320,
@@ -365,7 +365,7 @@
       "type": "Canny",
       "pos": [
         410,
-        910
+        870
       ],
       "size": [
         300,
@@ -425,7 +425,7 @@
       "type": "ControlNetLoader",
       "pos": [
         790,
-        910
+        870
       ],
       "size": [
         340,
@@ -468,7 +468,7 @@
       "type": "ControlNetApplyAdvanced",
       "pos": [
         1730,
-        596
+        556
       ],
       "size": [
         320,
@@ -570,7 +570,7 @@
       "type": "PreviewImage",
       "pos": [
         1230,
-        70
+        30
       ],
       "size": [
         280,
@@ -606,7 +606,7 @@
       "type": "EmptyLatentImage",
       "pos": [
         2150,
-        70
+        476
       ],
       "size": [
         300,
@@ -669,7 +669,7 @@
       "type": "KSampler",
       "pos": [
         2530,
-        70
+        476
       ],
       "size": [
         320,
@@ -789,7 +789,7 @@
       "type": "VAEDecode",
       "pos": [
         2930,
-        290
+        696
       ],
       "size": [
         210,
@@ -832,8 +832,8 @@
       "id": 15,
       "type": "PreviewImage",
       "pos": [
-        3230,
-        70
+        3240,
+        216
       ],
       "size": [
         300,
@@ -868,8 +868,8 @@
       "id": 16,
       "type": "LatentUpscaleBy",
       "pos": [
-        3230,
-        520
+        3240,
+        666
       ],
       "size": [
         300,
@@ -927,8 +927,8 @@
       "id": 17,
       "type": "KSampler",
       "pos": [
-        3610,
-        520
+        3620,
+        666
       ],
       "size": [
         320,
@@ -1046,8 +1046,8 @@
       "id": 18,
       "type": "VAEDecode",
       "pos": [
-        4010,
-        740
+        4020,
+        886
       ],
       "size": [
         210,
@@ -1091,8 +1091,8 @@
       "id": 19,
       "type": "PreviewImage",
       "pos": [
-        4320,
-        70
+        4330,
+        426
       ],
       "size": [
         300,
@@ -1127,8 +1127,8 @@
       "id": 20,
       "type": "UpscaleModelLoader",
       "pos": [
-        4320,
-        520
+        4330,
+        876
       ],
       "size": [
         320,
@@ -1170,8 +1170,8 @@
       "id": 21,
       "type": "ImageUpscaleWithModel",
       "pos": [
-        4720,
-        530
+        4730,
+        886
       ],
       "size": [
         260,
@@ -1214,8 +1214,8 @@
       "id": 22,
       "type": "ImageScaleBy",
       "pos": [
-        5060,
-        530
+        5070,
+        886
       ],
       "size": [
         280,
@@ -1274,8 +1274,8 @@
       "id": 23,
       "type": "VAEEncode",
       "pos": [
-        5420,
-        560
+        5430,
+        916
       ],
       "size": [
         210,
@@ -1318,8 +1318,8 @@
       "id": 24,
       "type": "KSampler",
       "pos": [
-        5710,
-        560
+        5720,
+        916
       ],
       "size": [
         320,
@@ -1437,8 +1437,8 @@
       "id": 25,
       "type": "VAEDecode",
       "pos": [
-        6110,
-        780
+        6120,
+        1136
       ],
       "size": [
         210,
@@ -1481,8 +1481,8 @@
       "id": 26,
       "type": "SaveImage",
       "pos": [
-        6410,
-        780
+        6420,
+        1136
       ],
       "size": [
         340,
@@ -1845,7 +1845,7 @@
       "title": "Load models",
       "bounding": [
         0,
-        370,
+        330,
         1080,
         210
       ],
@@ -1857,7 +1857,7 @@
       "title": "ControlNet",
       "bounding": [
         0,
-        620,
+        580,
         1140,
         400
       ],
@@ -1869,7 +1869,7 @@
       "title": "conditioning",
       "bounding": [
         1220,
-        370,
+        330,
         840,
         426
       ],
@@ -1881,7 +1881,7 @@
       "title": "First pass",
       "bounding": [
         2140,
-        0,
+        406,
         1010,
         350
       ],
@@ -1892,8 +1892,8 @@
       "id": 5,
       "title": "Hires fix",
       "bounding": [
-        3220,
-        450,
+        3230,
+        596,
         1010,
         350
       ],
@@ -1904,8 +1904,8 @@
       "id": 6,
       "title": "Upscale",
       "bounding": [
-        4310,
-        450,
+        4320,
+        806,
         2020,
         390
       ],
