@@ -1,7 +1,8 @@
 # FlowStyleDemo
 
-A flow-based take on node-based workflows: a ComfyUI workflow laid out as a top-to-bottom
-column of cards, with the app inputs on the left and the variables on the right.
+A middle ground between the node graph and App Mode: the same ComfyUI workflow, laid out as a
+single top-to-bottom column of cards in processing order, with the inputs you change on the
+left and the data sources on the right. Nothing hidden.
 
 **Try it:** https://usegird.github.io/flowui-demo/
 
@@ -13,6 +14,12 @@ column of cards, with the app inputs on the left and the variables on the right.
   from the workflow on screen.
 - You can open your own workflow (`.json`, or a `.png` with an embedded workflow). Nodes the demo
   has no definition for are marked as missing.
+
+## Sample workflow
+
+The workflow shown when the page opens is [sample-workflow.json](sample-workflow.json): a
+standard-node, A1111-style pipeline (LoRA -> ControlNet -> hires fix -> upscale). It is a plain
+ComfyUI workflow file, so you can open the same file in ComfyUI and compare.
 
 ## About the source code
 
