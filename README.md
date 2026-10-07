@@ -6,6 +6,8 @@ left and the data sources on the right. Nothing hidden.
 
 **Try it:** https://usegird.github.io/flowui-demo/
 
+![FlowStyleDemo: inputs on the left, cards in processing order in the middle, data sources on the right](og-image.jpg)
+
 ## What this is
 
 - A static, compiled demo page. Everything runs in your browser.
@@ -20,6 +22,12 @@ left and the data sources on the right. Nothing hidden.
 The workflow shown when the page opens is [sample-workflow.json](sample-workflow.json): a
 standard-node, A1111-style pipeline (LoRA -> ControlNet -> hires fix -> upscale). It is a plain
 ComfyUI workflow file, so you can open the same file in ComfyUI and compare.
+
+This is that file opened in ComfyUI after the demo laid it out. The red boxes mark the nodes
+whose inputs appear in the App column on the left. Long links that would run through other
+nodes are routed below the rows with ComfyUI's own reroutes, so the file stays plain ComfyUI.
+
+![The sample workflow opened in ComfyUI](comfy-screenshot.png)
 
 ## About the source code
 
