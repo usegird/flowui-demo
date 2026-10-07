@@ -1967,60 +1967,83 @@
         6,
         7,
         8,
-        9
+        9,
+        10,
+        11
       ]
     },
     "reroutes": [
       {
         "id": 1,
         "pos": [
-          750,
+          1690,
           1236
         ],
         "linkIds": [
-          15,
-          23,
-          36
+          24,
+          37
         ]
       },
       {
         "id": 2,
         "parentId": 1,
         "pos": [
-          2490,
+          3580,
           1236
         ],
         "linkIds": [
-          15
+          24
         ]
       },
       {
         "id": 3,
         "parentId": 1,
         "pos": [
-          3580,
+          5680,
           1236
+        ],
+        "linkIds": [
+          37
+        ]
+      },
+      {
+        "id": 4,
+        "pos": [
+          750,
+          1276
+        ],
+        "linkIds": [
+          23,
+          36
+        ]
+      },
+      {
+        "id": 5,
+        "parentId": 4,
+        "pos": [
+          3580,
+          1276
         ],
         "linkIds": [
           23
         ]
       },
       {
-        "id": 4,
-        "parentId": 1,
+        "id": 6,
+        "parentId": 4,
         "pos": [
           5680,
-          1236
+          1276
         ],
         "linkIds": [
           36
         ]
       },
       {
-        "id": 5,
+        "id": 7,
         "pos": [
           370,
-          1276
+          1316
         ],
         "linkIds": [
           20,
@@ -2030,44 +2053,44 @@
         ]
       },
       {
-        "id": 6,
-        "parentId": 5,
+        "id": 8,
+        "parentId": 7,
         "pos": [
           2890,
-          1276
+          1316
         ],
         "linkIds": [
           20
         ]
       },
       {
-        "id": 7,
-        "parentId": 5,
+        "id": 9,
+        "parentId": 7,
         "pos": [
           3980,
-          1276
+          1316
         ],
         "linkIds": [
           28
         ]
       },
       {
-        "id": 8,
-        "parentId": 5,
+        "id": 10,
+        "parentId": 7,
         "pos": [
           5390,
-          1276
+          1316
         ],
         "linkIds": [
           35
         ]
       },
       {
-        "id": 9,
-        "parentId": 5,
+        "id": 11,
+        "parentId": 7,
         "pos": [
           6080,
-          1276
+          1316
         ],
         "linkIds": [
           41
@@ -2076,32 +2099,36 @@
     ],
     "linkExtensions": [
       {
-        "id": 15,
+        "id": 24,
         "parentId": 2
       },
       {
-        "id": 23,
+        "id": 37,
         "parentId": 3
       },
       {
-        "id": 36,
-        "parentId": 4
+        "id": 23,
+        "parentId": 5
       },
       {
-        "id": 20,
+        "id": 36,
         "parentId": 6
       },
       {
-        "id": 28,
-        "parentId": 7
-      },
-      {
-        "id": 35,
+        "id": 20,
         "parentId": 8
       },
       {
-        "id": 41,
+        "id": 28,
         "parentId": 9
+      },
+      {
+        "id": 35,
+        "parentId": 10
+      },
+      {
+        "id": 41,
+        "parentId": 11
       }
     ]
   },
