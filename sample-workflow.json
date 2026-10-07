@@ -8,7 +8,7 @@
       "type": "CheckpointLoaderSimple",
       "pos": [
         10,
-        2097.5
+        440
       ],
       "size": [
         320,
@@ -73,7 +73,7 @@
       "type": "LoraLoader",
       "pos": [
         410,
-        2082.5
+        440
       ],
       "size": [
         300,
@@ -160,7 +160,7 @@
       "type": "CLIPSetLastLayer",
       "pos": [
         790,
-        2117.5
+        510
       ],
       "size": [
         280,
@@ -210,7 +210,7 @@
       "type": "CLIPTextEncode",
       "pos": [
         1230,
-        1974.5
+        440
       ],
       "size": [
         420,
@@ -262,7 +262,7 @@
       "type": "CLIPTextEncode",
       "pos": [
         1230,
-        2244.5
+        710
       ],
       "size": [
         420,
@@ -314,7 +314,7 @@
       "type": "LoadImage",
       "pos": [
         10,
-        2332.5
+        690
       ],
       "size": [
         320,
@@ -365,7 +365,7 @@
       "type": "Canny",
       "pos": [
         410,
-        2442.5
+        910
       ],
       "size": [
         300,
@@ -425,7 +425,7 @@
       "type": "ControlNetLoader",
       "pos": [
         790,
-        2442.5
+        910
       ],
       "size": [
         340,
@@ -468,7 +468,7 @@
       "type": "ControlNetApplyAdvanced",
       "pos": [
         1730,
-        2052.5
+        596
       ],
       "size": [
         320,
@@ -570,7 +570,7 @@
       "type": "PreviewImage",
       "pos": [
         1230,
-        1604.5
+        70
       ],
       "size": [
         280,
@@ -605,8 +605,8 @@
       "id": 12,
       "type": "EmptyLatentImage",
       "pos": [
-        2140,
-        1027.5
+        2150,
+        70
       ],
       "size": [
         300,
@@ -668,8 +668,8 @@
       "id": 13,
       "type": "KSampler",
       "pos": [
-        2520,
-        947.5
+        2530,
+        70
       ],
       "size": [
         320,
@@ -788,8 +788,8 @@
       "id": 14,
       "type": "VAEDecode",
       "pos": [
-        2920,
-        1057.5
+        2930,
+        290
       ],
       "size": [
         210,
@@ -833,7 +833,7 @@
       "type": "PreviewImage",
       "pos": [
         3230,
-        770
+        70
       ],
       "size": [
         300,
@@ -869,7 +869,7 @@
       "type": "LatentUpscaleBy",
       "pos": [
         3230,
-        1315
+        520
       ],
       "size": [
         300,
@@ -928,7 +928,7 @@
       "type": "KSampler",
       "pos": [
         3610,
-        1220
+        520
       ],
       "size": [
         320,
@@ -1047,7 +1047,7 @@
       "type": "VAEDecode",
       "pos": [
         4010,
-        1330
+        740
       ],
       "size": [
         210,
@@ -1092,7 +1092,7 @@
       "type": "PreviewImage",
       "pos": [
         4320,
-        852.5
+        70
       ],
       "size": [
         300,
@@ -1128,7 +1128,7 @@
       "type": "UpscaleModelLoader",
       "pos": [
         4320,
-        1407.5
+        520
       ],
       "size": [
         320,
@@ -1171,7 +1171,7 @@
       "type": "ImageUpscaleWithModel",
       "pos": [
         4720,
-        1412.5
+        530
       ],
       "size": [
         260,
@@ -1215,7 +1215,7 @@
       "type": "ImageScaleBy",
       "pos": [
         5060,
-        1397.5
+        530
       ],
       "size": [
         280,
@@ -1275,7 +1275,7 @@
       "type": "VAEEncode",
       "pos": [
         5420,
-        1412.5
+        560
       ],
       "size": [
         210,
@@ -1319,7 +1319,7 @@
       "type": "KSampler",
       "pos": [
         5710,
-        1302.5
+        560
       ],
       "size": [
         320,
@@ -1438,7 +1438,7 @@
       "type": "VAEDecode",
       "pos": [
         6110,
-        1412.5
+        780
       ],
       "size": [
         210,
@@ -1482,7 +1482,7 @@
       "type": "SaveImage",
       "pos": [
         6410,
-        1247.5
+        780
       ],
       "size": [
         340,
@@ -1845,7 +1845,7 @@
       "title": "Load models",
       "bounding": [
         0,
-        2012.5,
+        370,
         1080,
         210
       ],
@@ -1857,7 +1857,7 @@
       "title": "ControlNet",
       "bounding": [
         0,
-        2262.5,
+        620,
         1140,
         400
       ],
@@ -1869,7 +1869,7 @@
       "title": "conditioning",
       "bounding": [
         1220,
-        1904.5,
+        370,
         840,
         426
       ],
@@ -1880,8 +1880,8 @@
       "id": 4,
       "title": "First pass",
       "bounding": [
-        2130,
-        877.5,
+        2140,
+        0,
         1010,
         350
       ],
@@ -1893,7 +1893,7 @@
       "title": "Hires fix",
       "bounding": [
         3220,
-        1150,
+        450,
         1010,
         350
       ],
@@ -1905,9 +1905,9 @@
       "title": "Upscale",
       "bounding": [
         4310,
-        1232.5,
+        450,
         2020,
-        350
+        390
       ],
       "flags": {},
       "color": "#88A"
