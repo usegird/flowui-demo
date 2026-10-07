@@ -1957,8 +1957,153 @@
         "12:height": 6,
         "16:scale_by": 4,
         "16:upscale_method": 8
+      },
+      "reroutes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "reroutes": [
+      {
+        "id": 1,
+        "pos": [
+          750,
+          1236
+        ],
+        "linkIds": [
+          15,
+          23,
+          36
+        ]
+      },
+      {
+        "id": 2,
+        "parentId": 1,
+        "pos": [
+          2490,
+          1236
+        ],
+        "linkIds": [
+          15
+        ]
+      },
+      {
+        "id": 3,
+        "parentId": 1,
+        "pos": [
+          3580,
+          1236
+        ],
+        "linkIds": [
+          23
+        ]
+      },
+      {
+        "id": 4,
+        "parentId": 1,
+        "pos": [
+          5680,
+          1236
+        ],
+        "linkIds": [
+          36
+        ]
+      },
+      {
+        "id": 5,
+        "pos": [
+          370,
+          1276
+        ],
+        "linkIds": [
+          20,
+          28,
+          35,
+          41
+        ]
+      },
+      {
+        "id": 6,
+        "parentId": 5,
+        "pos": [
+          2890,
+          1276
+        ],
+        "linkIds": [
+          20
+        ]
+      },
+      {
+        "id": 7,
+        "parentId": 5,
+        "pos": [
+          3980,
+          1276
+        ],
+        "linkIds": [
+          28
+        ]
+      },
+      {
+        "id": 8,
+        "parentId": 5,
+        "pos": [
+          5390,
+          1276
+        ],
+        "linkIds": [
+          35
+        ]
+      },
+      {
+        "id": 9,
+        "parentId": 5,
+        "pos": [
+          6080,
+          1276
+        ],
+        "linkIds": [
+          41
+        ]
       }
-    }
+    ],
+    "linkExtensions": [
+      {
+        "id": 15,
+        "parentId": 2
+      },
+      {
+        "id": 23,
+        "parentId": 3
+      },
+      {
+        "id": 36,
+        "parentId": 4
+      },
+      {
+        "id": 20,
+        "parentId": 6
+      },
+      {
+        "id": 28,
+        "parentId": 7
+      },
+      {
+        "id": 35,
+        "parentId": 8
+      },
+      {
+        "id": 41,
+        "parentId": 9
+      }
+    ]
   },
   "version": 0.4
 }
